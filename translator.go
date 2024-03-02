@@ -431,12 +431,13 @@ func (t *DefaultRSSTranslator) translateItemImage(rssItem *rss.Item) *Image {
 			return &Image{URL: enc.URL}
 		}
 	}
-	if img := firstImageFromHtmlDocument(rssItem.Content); img != nil {
-		return img
-	}
-	if img := firstImageFromHtmlDocument(rssItem.Description); img != nil {
-		return img
-	}
+	// This is not desirable in Feeder
+	// if img := firstImageFromHtmlDocument(rssItem.Content); img != nil {
+	// 	return img
+	// }
+	// if img := firstImageFromHtmlDocument(rssItem.Description); img != nil {
+	// 	return img
+	// }
 	return nil
 }
 

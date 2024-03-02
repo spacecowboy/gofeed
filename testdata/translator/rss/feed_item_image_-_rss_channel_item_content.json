@@ -3,9 +3,6 @@
   "feedVersion": "0.91",
   "items": [
     {
-      "image": {
-        "url": "http://example.com/content.png"
-      },
       "content": "<img src=\"http://example.com/content.png\">"
     }
   ]
