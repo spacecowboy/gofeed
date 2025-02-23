@@ -8,8 +8,8 @@ require (
 	github.com/mmcdole/goxpp v1.1.1-0.20240225020742-a0c311522b23
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli v1.22.16
-	golang.org/x/net v0.4.0
-	golang.org/x/text v0.5.0
+	golang.org/x/net v0.35.0
+	golang.org/x/text v0.22.0
 )
 
 require (
