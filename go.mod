@@ -9,7 +9,7 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli v1.22.16
 	golang.org/x/net v0.4.0
-	golang.org/x/text v0.5.0
+	golang.org/x/text v0.22.0
 )
 
 require (
